@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Coin Info</title>
+    <style>
+        /* Reset margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .full-page {
+            position: relative;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* Links container */
+        .content {
+            position: absolute;
+            bottom: 10%;
+            width: 100%;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        .content a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            margin: 0 0.5em;
+        }
+
+        /* Address box */
+        .address-box {
+            position: absolute;
+            top: 10%;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Section 1 (Photo Background) -->
+    <div class="full-page" style="background-image: url('photo1.jpg');">
+        <div class="address-box">
+            Coin Contract Address: <span id="contract-address">0xYourCoinAddressHere</span>
+        </div>
+        <div class="content">
+            <a href="https://x.com/MAGAassonsol" target="_blank">X Account</a>
+            <a href="#" target="_blank">Pump.fun Account</a>
+            <a href="#" target="_blank">Telegram</a>
+        </div>
+    </div>
+
+    <!-- Section 2 (Photo Background) -->
+    <div class="full-page" style="background-image: url('photo2.jpg');"></div>
+
+    <!-- Section 3 (Photo Background) -->
+    <div class="full-page" style="background-image: url('photo3.jpg');"></div>
+
+</body>
+</html>
