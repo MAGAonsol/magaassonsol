@@ -1,0 +1,75 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Light gray background for contrast */
+    color: #333;
+}
+
+/* Full-Page Section Background */
+.full-page {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* American Flag Themed Colors */
+.address-box {
+    position: absolute;
+    top: 10%;
+    background-color: rgba(0, 0, 139, 0.8); /* Navy Blue */
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.content {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/* Link Styling with Red and Blue */
+.content a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    background-color: red;
+    border-radius: 5px;
+    margin: 0 0.5em;
+    transition: background-color 0.3s;
+}
+
+.content a:hover {
+    background-color: blue; /* Blue on hover */
+}
+
+/* Background Patterns with American Flag Effect */
+.full-page:nth-child(1) {
+    background-image: url('flag1.jpg'); /* Replace with American flag photo */
+}
+
+.full-page:nth-child(2) {
+    background-image: url('flag2.jpg'); /* Replace with another patriotic photo */
+}
+
+.full-page:nth-child(3) {
+    background-image: url('flag3.jpg'); /* Replace with another photo */
+}
